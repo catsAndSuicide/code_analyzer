@@ -1,0 +1,15 @@
+﻿interface_declaration -> interface_modifier partial_or_not interface some_id interface_body
+some_id -> id | id_with_only_latin
+interface_modifier -> modifier | Lambda
+partial_or_not -> partial | Lambda
+interface_body -> { interface_member_declaration }
+interface_member_declaration -> interface_member_declaration interface_member_declaration | interface_method_declaration | interface_property_declaration | Lambda
+interface_method_declaration -> return_type some_id ( formal_parameter_list ) ;
+return_type -> type | void
+type -> id_with_only_latin
+formal_parameter_list -> fixed_parameters | Lambda
+fixed_parameters -> fixed_parameter | fixed_parameter , fixed_parameters
+fixed_parameter -> parameter_modifier type some_id
+parameter_modifier -> ref | out | this | Lambda
+interface_property_declaration -> type some_id { interface_accessors }
+interface_accessors -> get ; | set ; | get ; set ; | set ; get ;

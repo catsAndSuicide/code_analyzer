@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntaxAnalyzerTests", "SyntaxAnalyzerTests\SyntaxAnalyzerTests.csproj", "{6A038013-755F-475E-B671-689AA630CD03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntaxAnalyzer", "SyntaxAnalyzer\SyntaxAnalyzer.csproj", "{5BB594E3-C449-4BEC-855B-75ECA1FE3765}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A038013-755F-475E-B671-689AA630CD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A038013-755F-475E-B671-689AA630CD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A038013-755F-475E-B671-689AA630CD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A038013-755F-475E-B671-689AA630CD03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB594E3-C449-4BEC-855B-75ECA1FE3765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB594E3-C449-4BEC-855B-75ECA1FE3765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB594E3-C449-4BEC-855B-75ECA1FE3765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB594E3-C449-4BEC-855B-75ECA1FE3765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

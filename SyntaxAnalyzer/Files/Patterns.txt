@@ -1,0 +1,16 @@
+﻿interface = interface
+modifier = public|private|protected|internal
+partial = partial
+void = void
+this = this
+ref = ref
+out = out
+get = get
+set = set
+{ = \{
+} = \}
+( = \(
+) = \)
+; = ;
+id_with_only_latin = [A-Za-z][A-Za-z]*
+id = [A-Za-z][A-Za-z0-9_]*

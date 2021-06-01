@@ -1,0 +1,4 @@
+﻿S -> N | N , M
+N -> 0 | 1 P
+P -> 0 P | 1 P | Lambda
+M -> P 1

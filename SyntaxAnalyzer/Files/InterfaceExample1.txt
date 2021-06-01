@@ -1,0 +1,9 @@
+﻿public interface IExample
+{
+    void Choose(bool toBeOrNotToBe);
+        
+    int SomeNumberProperty { get; set; }
+    string SomeStringProperty { set; }
+
+    string DoStrangeThing(BlaBlaBlaType blaBlaBlaValue);
+}

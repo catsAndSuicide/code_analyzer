@@ -1,0 +1,5 @@
+﻿E -> T E#
+E# -> + T E# | Lambda
+T -> F T#
+T# -> * F T# | Lambda
+F -> ( E ) | x
